@@ -4,6 +4,11 @@ Chrome-bővítmény, amely a TypeSafe **Jev** modelljével átnézi a YouTube-ho
 
 A hozzászólások fölött látható gyűlöletindex megmutatja, hány hozzászólásból hányat rejtett el a bővítmény. A mérgező arány külön zöld, narancssárga vagy piros százalékos jelvényen jelenik meg, mellette az oldalon elköltött összeg dollárban és forintban látszik. Minden a böngészőben fut; a Jev-hívások közvetlenül a TypeSafe API-hoz mennek a saját kulcsoddal.
 
+
+![Az Epeszűrő működés közben egy YouTube-kommentszálon: gyűlöletindex, megsemmisített és elhomályosított hozzászólások, hőtérkép](docs/demo.webp)
+
+*A felvételen a felhasználóneveket és az avatarokat kitakartuk.*
+
 ## Telepítés
 
 1. Töltsd le a legfrissebb kiadást a [Releases](https://github.com/naturalmoods/epeszuro/releases/latest) oldalról (`epeszuro-<verzió>.zip`), és csomagold ki. Vagy: `git clone https://github.com/naturalmoods/epeszuro.git`.
