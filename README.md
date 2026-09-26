@@ -1,5 +1,7 @@
 # Epeszűrő
 
+**Magyar** · [English](README.en.md)
+
 Chrome-bővítmény, amely a TypeSafe **Jev** modelljével átnézi a YouTube-hozzászólásokat és az élő chat üzeneteit. A súlyos gyűlölködést iratmegsemmisítő animációval eltünteti, a trágár vagy sértő szöveget elhomályosítja, a gúnyt pedig megjelöli. Az eredeti hozzászólás kattintással bármikor megnézhető.
 
 A hozzászólások fölött látható gyűlöletindex megmutatja, hány hozzászólásból hányat rejtett el a bővítmény. A mérgező arány külön zöld, narancssárga vagy piros százalékos jelvényen jelenik meg, mellette az oldalon elköltött összeg dollárban és forintban látszik. Minden a böngészőben fut; a Jev-hívások közvetlenül a TypeSafe API-hoz mennek a saját kulcsoddal.

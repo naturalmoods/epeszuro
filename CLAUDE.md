@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-"Epeszűrő": a Manifest V3 Chrome extension that hides hateful YouTube comments and live chat messages. Each comment gets 6 TypeSafe Jev questions (violence, dehumanisation, group hate, vulgarity, mocking nickname as Nouls; personal attack as a 4-level Score); code decides shred / blur / mark via `action()` in `src/judge.js`. No backend: every user brings their own TypeSafe key. Everything user-facing is Hungarian, and so are code comments, the README, `LICENSE.hu.md` (Hungarian translation of the MIT `LICENSE`, which stays English so GitHub detects it) and commit messages; this file stays English. The Jev questions are deliberately English. Author: Cziczlavicz Péter.
+"Epeszűrő": a Manifest V3 Chrome extension that hides hateful YouTube comments and live chat messages. Each comment gets 6 TypeSafe Jev questions (violence, dehumanisation, group hate, vulgarity, mocking nickname as Nouls; personal attack as a 4-level Score); code decides shred / blur / mark via `action()` in `src/judge.js`. No backend: every user brings their own TypeSafe key. Everything user-facing is Hungarian, and so are code comments, the README (`README.en.md` is its English translation; keep the two in sync), `LICENSE.hu.md` (Hungarian translation of the MIT `LICENSE`, which stays English so GitHub detects it) and commit messages; this file stays English. The Jev questions are deliberately English. Author: Cziczlavicz Péter.
 
 ## Development
 
