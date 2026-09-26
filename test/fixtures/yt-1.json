@@ -1,0 +1,164 @@
+{
+ "source": "Kitalált politikai YouTube-kommentszál egy valódi szál mintájára (ugyanazok a kategóriák, csapdák és kézi címkék). Minden név, párt és gúnynév kitalált. expect: shred | blur | mark | null. swap: nevekcserélt pár a pártsemlegességi próbához.",
+ "video": {},
+ "comments": [
+  {
+   "id": 1,
+   "text": "Mondjuk, mondjuk. 😁",
+   "expect": null
+  },
+  {
+   "id": 2,
+   "text": "Egy kis nyugtató talán segítene neki.",
+   "expect": "mark"
+  },
+  {
+   "id": 3,
+   "text": "pöffeszkedő miniszterecske 😂😂😂",
+   "expect": "mark"
+  },
+  {
+   "id": 4,
+   "text": "Most végre kiderült, ki a nemzetáruló, aki mindig csak a saját zsebére dolgozott",
+   "expect": "blur"
+  },
+  {
+   "id": 5,
+   "text": "Egyre idegesebb!  Csak így tovább ! Hajrá!",
+   "expect": null
+  },
+  {
+   "id": 6,
+   "text": "Hazudik. Megint hazudik",
+   "expect": null
+  },
+  {
+   "id": 7,
+   "text": "T. \"Mindentudó\" miniszter úr, az ön bevezetője a nagy elődökről már előre jelezte, milyen \"mély\" lesz a mondanivaló!!!\nÉn ezt ötödikben tanúltam!",
+   "expect": "mark"
+  },
+  {
+   "id": 8,
+   "text": "🤣😂🤣😅🤣😂😅🤣",
+   "expect": null
+  },
+  {
+   "id": 9,
+   "text": "Ilyen jelentéktelen embernek, ilyen üres mondatoknak nem kell figyelmet szentelni!  (NEM BÍRJA, HA NEM FIGYELNEK RÁ.) 🙂",
+   "expect": "blur"
+  },
+  {
+   "id": 10,
+   "text": "A gyalázkodás,mocskolódás,terelés,hazudozás megint ment.Nekem ez a stílus visszataszító.",
+   "expect": null,
+   "trap": "sértő szavakat sorol, de elítéli őket"
+  },
+  {
+   "id": 11,
+   "text": "Az örökös sértegetéssel, személyeskedéssel, mocskolódással óriási fejlődésnek indult az ország.  Lépésről lépésre... Erre épül a szép jövőnk.",
+   "expect": null,
+   "trap": "irónia, a sértegetést kritizálja"
+  },
+  {
+   "id": 12,
+   "text": "Amíg a haverokkal osztották a koncessziót, nem fájt a kár. Bezzeg most ....  \nKi vállalta el harmadáron? Nem lesz a végén háromszoros a kifizetés?",
+   "expect": null
+  },
+  {
+   "id": 13,
+   "text": "Kakás Ödön",
+   "expect": "blur",
+   "trap": "rejtett trágárság (névcsavarás)"
+  },
+  {
+   "id": 14,
+   "text": "EMBEREK  EZT  A MOCSKOS FERGET  FEL  KELL HUZNI  AZ ELSÖ  FARA  AMI  ÚTBA ESIK",
+   "expect": "shred",
+   "trap": "elírt, csupa nagybetűs lincselésre buzdítás"
+  },
+  {
+   "id": 15,
+   "text": "Csak hazudik! Hallgatni is rossz, de nem veszi észre!",
+   "expect": null
+  },
+  {
+   "id": 16,
+   "text": "cukifalat fantáziál",
+   "expect": "mark"
+  },
+  {
+   "id": 17,
+   "text": "cukifalat bajban van.😂",
+   "expect": "mark"
+  },
+  {
+   "id": 18,
+   "text": "Nagyívű, hazafias beszéd volt, még a szövetséges és a haladáspárti szavazók zöme is elégedetten bólinthatott!",
+   "expect": null,
+   "swap": "Nagyívű, hazafias beszéd volt, még a haladáspárti és a szövetséges szavazók zöme is elégedetten bólinthatott!"
+  },
+  {
+   "id": 19,
+   "text": "Ha valaki érti, mit akart mondani, írja le! Mert ez csak blabla, ráadásul pöszén! Nem bírja! KO 😂",
+   "expect": "mark"
+  },
+  {
+   "id": 20,
+   "text": "Kardos miért nem megy be a parlamentbe, fél Molnártól, mert megkérdezné tőle, hol van a sok milliárd",
+   "expect": null,
+   "swap": "Molnár miért nem megy be a parlamentbe, fél Kardostól, mert megkérdezné tőle, hol van a sok milliárd"
+  },
+  {
+   "id": 21,
+   "text": "Amit Bérces csinál meg a többi szövetséges képviselő, kiveri a biztosítékot, mert ez már undorító viselkedés",
+   "expect": null,
+   "swap": "Amit Rédey csinál meg a többi haladáspárti képviselő, kiveri a biztosítékot, mert ez már undorító viselkedés"
+  },
+  {
+   "id": 22,
+   "text": "Csak járatja a száját,  mert mondanivalója nincs.",
+   "expect": "mark"
+  },
+  {
+   "id": 23,
+   "text": "Ezt a Mókust nem lehet végighallgatni.Rosszul vagyok tőle😅",
+   "expect": "mark"
+  },
+  {
+   "id": 24,
+   "text": "Hallgathatatlan beszéd, minden egyes alkalommal!!!",
+   "expect": null
+  },
+  {
+   "id": 25,
+   "text": "Munkaidőben nem bejárni, ülésen újságot olvasni, telefonozni, ez a Szövetség! Köszönet a tévének, hogy ezt is megmutatta a még megmaradt híveiknek!",
+   "expect": null,
+   "swap": "Munkaidőben nem bejárni, ülésen újságot olvasni, telefonozni, ez a Haladás Párt! Köszönet a tévének, hogy ezt is megmutatta a még megmaradt híveiknek!"
+  },
+  {
+   "id": 26,
+   "text": "Átkozódni, szidni, hazudozni órákon át ....a buliból már kidobták volna ... de a szarkeverőt a sajtó zavarja...",
+   "expect": [
+    "blur",
+    "shred"
+   ],
+   "trap": "„szarkeverő”: trágár sértés; a „mocsoknak nevezés” dehumanizálásként is olvasható (utólag elfogadott második címke)"
+  },
+  {
+   "id": 27,
+   "text": "Ne a nagy elődöket vegye a szájára, hanem azt, amire gondolok.",
+   "expect": "blur",
+   "trap": "szexuális célzás csúnya szó nélkül"
+  },
+  {
+   "id": 28,
+   "text": "Brüsszeli hivatalnokocskák..., hát ez telibe talált.",
+   "expect": "mark"
+  },
+  {
+   "id": 29,
+   "text": "Kardos Ödön százszor annyit adott a köz javára, mint Bolha. És még ez a fickó szövegel itt az áldozatvállalásról.",
+   "expect": "mark"
+  }
+ ]
+}

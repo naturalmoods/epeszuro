@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<title>Tartalék videócím - YouTube</title>
+<style>ytd-comments, ytd-comment-thread-renderer, ytd-comment-view-model, ytd-comment-renderer { display: block; padding: 4px; } ytd-comments { width: 600px; } ytd-comment-view-model, ytd-comment-renderer { min-height: 260px; }</style>
+</head>
+<body>
+<ytd-watch-metadata><h1>Próba videó</h1></ytd-watch-metadata>
+<ytd-channel-name><a>Próba csatorna</a></ytd-channel-name>
+<ytd-comments id="comments">
+  <ytd-comment-view-model data-case="shred"><a id="author-text">Titkos Szerző Egy</a><div id="content-text">Erőszakos hozzászólás</div></ytd-comment-view-model>
+  <ytd-comment-renderer data-case="blur"><a id="author-text">Titkos Szerző Kettő</a><div id="content-text">Trágár hozzászólás</div></ytd-comment-renderer>
+  <ytd-comment-thread-renderer>
+    <ytd-comment-view-model data-case="safe"><a id="author-text">Titkos Szülő</a><div id="content-text">Nyugodt szülő hozzászólás</div></ytd-comment-view-model>
+    <div id="replies"><ytd-comment-replies-renderer>
+      <ytd-comment-view-model data-case="mark"><a id="author-text">Titkos Válaszoló</a><div id="content-text">Gúnyos válasz</div></ytd-comment-view-model>
+    </ytd-comment-replies-renderer></div>
+  </ytd-comment-thread-renderer>
+</ytd-comments>
+<template id="late-comment">
+  <ytd-comment-view-model data-case="late"><a id="author-text">Titkos Késői Szerző</a><div id="content-text">Késői gyűlölködés</div></ytd-comment-view-model>
+</template>
+</body>
+</html>

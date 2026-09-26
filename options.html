@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<title>Epeszűrő – beállítások</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f7f8fa; color: #16181d; font: 14px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 620px; margin: 48px auto; padding: 0 16px; }
+  h1 { font-size: 20px; font-weight: 650; margin: 0 0 4px; }
+  .sub { color: #5b6270; margin: 0 0 28px; }
+  .card { background: #fff; border: 1px solid #e3e6eb; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .fields { display: grid; gap: 12px; margin-top: 16px; }
+  label { display: grid; gap: 4px; font-size: 13px; font-weight: 550; }
+  input { font: inherit; padding: 8px 10px; border: 1px solid #d5d9e0; border-radius: 8px; background: #fff; }
+  input:focus { outline: 2px solid #16181d; outline-offset: -1px; }
+  .bar { display: flex; gap: 10px; align-items: center; }
+  button { font: inherit; font-weight: 600; padding: 8px 14px; border: 1px solid #16181d; border-radius: 8px; background: #16181d; color: #fff; cursor: pointer; }
+  #msg { font-size: 13px; color: #5b6270; }
+  #msg.ok { color: #1c7a43; }
+  #msg.err { color: #a12828; }
+  .note { font-size: 12.5px; color: #5b6270; margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Epeszűrő</h1>
+  <p class="sub">A gyűlölködő YouTube-hozzászólások szűrése TypeSafe Jevvel.</p>
+  <div class="card">
+    <p class="note">A kérés közvetlenül a böngészőből megy a TypeSafe API-hoz. A kulcs csak ebben a böngészőben tárolódik.</p>
+    <div class="fields">
+      <label>TypeSafe API-kulcs <input type="password" id="apiKey" autocomplete="off" placeholder="ts_…"></label>
+      <label>Modell <input type="text" id="model" placeholder="jev-latest"></label>
+      <label>USD/HUF árfolyam <input type="number" id="usdHuf" min="1" step="0.01"><span class="note">A költség forintos kijelzéséhez.</span></label>
+    </div>
+  </div>
+  <div class="bar">
+    <button id="save">Mentés</button>
+    <span id="msg" role="status"></span>
+  </div>
+</main>
+<script type="module" src="options.js"></script>
+</body>
+</html>

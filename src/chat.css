@@ -1,0 +1,20 @@
+#epe-chat-count { position: relative; z-index: 1; padding: 6px 12px; font: 12px Roboto, Arial, sans-serif; color: var(--yt-live-chat-primary-text-color, #0f0f0f); background: var(--yt-live-chat-background-color, #fff); }
+#epe-chat-count .epe-toxic-pill { display: inline-block; margin-left: 8px; padding: 2px 7px; border-radius: 999px; color: #fff; font-weight: 700; font-variant-numeric: tabular-nums; }
+#epe-chat-count .epe-toxic-low { background: #137333; }
+#epe-chat-count .epe-toxic-mid { background: #b06000; }
+#epe-chat-count .epe-toxic-high { background: #c5221f; }
+#epe-chat-count .epe-cost { margin-left: 8px; color: var(--yt-live-chat-secondary-text-color, #606060); font-variant-numeric: tabular-nums; }
+[data-epe-chat] { position: relative; }
+[data-epe-chat="shred"]:not([data-epe-revealed]) > :not(.epe-chat-ui) { display: none !important; }
+[data-epe-chat="shred"] .epe-chat-ui { display: none; padding: 4px 8px; border-left: 3px solid #d93025; font: 12px Roboto, Arial, sans-serif; color: var(--yt-live-chat-primary-text-color, #0f0f0f); background: var(--yt-live-chat-background-color, #fff); }
+[data-epe-chat="shred"]:not([data-epe-revealed]) .epe-chat-ui { display: block; }
+.epe-chat-ui button { border: 0; padding: 0; background: none; color: #d93025; text-decoration: underline; cursor: pointer; }
+[data-epe-chat="blur"]:not([data-epe-revealed]) #message { filter: blur(5px); cursor: pointer; }
+[data-epe-chat="blur"] .epe-chat-ui { margin-left: 8px; padding: 1px 3px; font: 10px Roboto, Arial, sans-serif; color: var(--yt-live-chat-secondary-text-color, #b3261e); }
+[data-epe-chat="blur"][data-epe-revealed] .epe-chat-ui { display: none; }
+[data-epe-chat="mark"] { border-left: 3px solid #ef8c00; }
+[data-epe-chat="mark"] .epe-chat-ui { display: none; }
+/* YouTube's transparent chat can retain a white canvas after its dark text variables switch. */
+html[dark] #chat-messages { background: var(--yt-live-chat-background-color, #0f0f0f); }
+html[dark] [data-epe-chat="shred"] .epe-chat-ui { color: #fff; background: #0f0f0f; }
+html[dark] yt-live-chat-banner-renderer #message { color: #fff; }

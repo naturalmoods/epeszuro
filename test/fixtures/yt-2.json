@@ -1,0 +1,375 @@
+{
+ "source": "Kitalált, barátságos, főleg gasztro témájú YouTube élő chat egy valódi chat mintájára (ugyanazok a csapdák és kézi címkék). Minden név kitalált. expect lehet lista: bármelyik elfogadható.",
+ "video": {
+  "type": "live chat"
+ },
+ "comments": [
+  {
+   "id": 1,
+   "text": "gergő a legjobb",
+   "expect": null
+  },
+  {
+   "id": 2,
+   "text": "Jó vicc, hogy pont most legyen kész a vacsora 😂😂😂",
+   "expect": null
+  },
+  {
+   "id": 3,
+   "text": "❤❤❤🇭🇺🇭🇺🇭🇺",
+   "expect": null
+  },
+  {
+   "id": 4,
+   "text": "halászlé, te vagy az új népvezér??",
+   "expect": [
+    null,
+    "mark"
+   ]
+  },
+  {
+   "id": 5,
+   "text": "Megkérdezhetem, miért vagy kopasz? Nem fázik a fejed? Télen milyen sapkát hordasz?",
+   "expect": null,
+   "trap": "személyes, de kedves"
+  },
+  {
+   "id": 6,
+   "text": "már alig várom a disznóvágás szezont",
+   "expect": null
+  },
+  {
+   "id": 7,
+   "text": "ki kell menni a piacra, és holnap megfőzni ezeket a finomságokat!",
+   "expect": null
+  },
+  {
+   "id": 8,
+   "text": "Szerinted a két újságíró a vízmű-ügyet is \"fel tudja hangosítani\"? Az is komoly ügy. És keményen érinti a nagyságos polgármester urat és Csipke Pistikét.",
+   "expect": [
+    null,
+    "mark"
+   ]
+  },
+  {
+   "id": 9,
+   "text": "Na hazaértem 😁 Sziasztok!",
+   "expect": null
+  },
+  {
+   "id": 10,
+   "text": "igen, csinálnak, a hentes szalagfűrésze csodákra képes",
+   "expect": null,
+   "trap": "fűrész, de ételről szól"
+  },
+  {
+   "id": 11,
+   "text": "Épp most lett kész a halászlé. A Tisza-part jó lesz? Mire ideérsz, sütök hozzá friss kenyeret.",
+   "expect": null
+  },
+  {
+   "id": 12,
+   "text": "Az öreg népvezért szerettem hallgatni.",
+   "expect": null
+  },
+  {
+   "id": 13,
+   "text": "a halászlé megosztó étel",
+   "expect": null
+  },
+  {
+   "id": 14,
+   "text": "az óriás lesz",
+   "expect": null
+  },
+  {
+   "id": 15,
+   "text": "megnéznélek dús göndör hajjal, biztos cuki lennél",
+   "expect": null
+  },
+  {
+   "id": 16,
+   "text": "Nem reklám, de a sarki boltban szuper halászlé kapható konzervben:)",
+   "expect": null
+  },
+  {
+   "id": 17,
+   "text": "@felhasználó A népvezér is az volt! 😃",
+   "expect": null
+  },
+  {
+   "id": 18,
+   "text": "Lehet személyeset kérdezni? Nem indiszkrét…. Sportoltál? Sportolsz? Ha igen, mit?",
+   "expect": null
+  },
+  {
+   "id": 19,
+   "text": "szerintem kopaszon is cuki vagy🤩",
+   "expect": null
+  },
+  {
+   "id": 20,
+   "text": "snooker",
+   "expect": null
+  },
+  {
+   "id": 21,
+   "text": "még vagy 3 4 óra a halászlé",
+   "expect": null
+  },
+  {
+   "id": 22,
+   "text": "Anna ok 😊",
+   "expect": null
+  },
+  {
+   "id": 23,
+   "text": "Mi a helyzet?",
+   "expect": null
+  },
+  {
+   "id": 24,
+   "text": "Én a kocsonyát is szeretem, régen körmöt meg fület tettünk bele, mert olcsó volt és finom is :)",
+   "expect": null
+  },
+  {
+   "id": 25,
+   "text": "A két újságíró meg a vízmű-ügy, ha ebből sem lesz semmi, akkor a jogász maffia országában élünk!!! :(",
+   "expect": null
+  },
+  {
+   "id": 26,
+   "text": "Köszi,",
+   "expect": null
+  },
+  {
+   "id": 27,
+   "text": "mert a halászlét vagy imádja az ember, vagy utálja. Én pl utálom.",
+   "expect": null
+  },
+  {
+   "id": 28,
+   "text": "Én a sarki boltban veszem a konzervet.",
+   "expect": null
+  },
+  {
+   "id": 29,
+   "text": "mikor fenyegettek meg utoljára, hogy hagyd abba, amit csinálsz?",
+   "expect": null,
+   "trap": "fenyegetésről kérdez, nem fenyeget"
+  },
+  {
+   "id": 30,
+   "text": "A halászlét vagy szereti valaki, vagy utálja, ezért megosztó, szerintem",
+   "expect": null
+  },
+  {
+   "id": 31,
+   "text": "Pedig biztos nagyon jól állna a fekete göndör haj. Olyan, mint a görög isteneké.",
+   "expect": null
+  },
+  {
+   "id": 32,
+   "text": "ha kick box, akkor meg tudod védeni magad",
+   "expect": null,
+   "trap": "önvédelem, nem erőszakra buzdítás"
+  },
+  {
+   "id": 33,
+   "text": "Ha fenyegetnének, akkor sem enném meg a halászlét. 😃 Szerintem is vagy nagyon szeretik, vagy utálják.",
+   "expect": null,
+   "trap": "fenyegetés szó, tréfa"
+  },
+  {
+   "id": 34,
+   "text": "Ja, nálunk csülöknek hívják a lábat.",
+   "expect": null
+  },
+  {
+   "id": 35,
+   "text": "@felhasználó kapcsolódva, szerinted véletlen, hogy a harmadik ügyvéd eltűnt a csapatból? Neki van egy kisgyereke, szerintem szóltak neki, hogy élesedik a helyzet, nem?",
+   "expect": null
+  },
+  {
+   "id": 36,
+   "text": "akkor úgy kérdezem, mi volt a legdurvább?",
+   "expect": null
+  },
+  {
+   "id": 37,
+   "text": "Meccset nézed?",
+   "expect": null
+  },
+  {
+   "id": 38,
+   "text": "Most már egy főzőcsatornát is indíthatnál",
+   "expect": null
+  },
+  {
+   "id": 39,
+   "text": "én is utáltam a halászlét régen, de egy barátom rábeszélt, hogy kóstoljam meg, azóta a kedvencem, jó vörösborral",
+   "expect": null
+  },
+  {
+   "id": 40,
+   "text": "Most kevesebb fenyegetést kapsz? Vagy annyit, mint a választás előtt?",
+   "expect": null,
+   "trap": "fenyegetésről kérdez"
+  },
+  {
+   "id": 41,
+   "text": "A pacal, ha kihűl, kicsit nyálkás lesz. Olyan, mint a csigapörkölt, az is nyálkásodik, ha hűl.",
+   "expect": null
+  },
+  {
+   "id": 42,
+   "text": "Annyit esztek, hogy megéheztem.",
+   "expect": null
+  },
+  {
+   "id": 43,
+   "text": "@felhasználó Gyere hozzánk paprikás krumplit enni!",
+   "expect": null
+  },
+  {
+   "id": 44,
+   "text": "Robi, kérlek, ne részletezd...",
+   "expect": null
+  },
+  {
+   "id": 45,
+   "text": "Jó! De ez a sztori, Kopasz, még a “régi rendszer” 😂😂😂😂 előtt történt… 😂😂",
+   "expect": null,
+   "trap": "„Kopasz” megszólítás, baráti"
+  },
+  {
+   "id": 46,
+   "text": "😜",
+   "expect": null
+  },
+  {
+   "id": 47,
+   "text": "Okés, várunk! De éhesen gyere! 😂😂😂",
+   "expect": null
+  },
+  {
+   "id": 48,
+   "text": "az jó, gyere, a kertben van főzőhely!",
+   "expect": null
+  },
+  {
+   "id": 49,
+   "text": "Küldök a családnak is. A kicsi már eszik rendes ételt?",
+   "expect": null
+  },
+  {
+   "id": 50,
+   "text": "ha nem sértelek meg vele. a családod hogy bírja?",
+   "expect": null
+  },
+  {
+   "id": 51,
+   "text": "Hiába tettünk feljelentést, \"nem történt bűncselekmény....\" Még jó.",
+   "expect": null
+  },
+  {
+   "id": 52,
+   "text": "ha szabad kérdezni, miért nem ihatsz alkoholt, valami egészségügyi, vagy lelki?",
+   "expect": null
+  },
+  {
+   "id": 53,
+   "text": "@felhasználó bocsi",
+   "expect": null
+  },
+  {
+   "id": 54,
+   "text": "Egye fene, holnap krumplis tésztát is csinálok 😂😂😂",
+   "expect": null
+  },
+  {
+   "id": 55,
+   "text": "@felhasználó már nem hiszek az igazságszolgáltatásban! jogi maffia országában élünk...",
+   "expect": null
+  },
+  {
+   "id": 56,
+   "text": "egyszer ettem csigát, de nem ízlett",
+   "expect": null
+  },
+  {
+   "id": 57,
+   "text": "Hallod, annyi kajafelajánlásod van, hogy egy falut ellátnál 3 napra",
+   "expect": null
+  },
+  {
+   "id": 58,
+   "text": "Szia! Követed mostanában a háborús híreket? Kíváncsi lennék, mit látsz most?",
+   "expect": null
+  },
+  {
+   "id": 59,
+   "text": "@felhasználó A kakaós csiga az finom. 😃",
+   "expect": null
+  },
+  {
+   "id": 60,
+   "text": "Az a sztori, amit meséltél, hogy sértettként hívtak be. Ez még a “régi rendszer”😂😂😂😂 előtt volt, nem? Most várhatsz ilyen meglepetéseket, nem fognak jönni 😂😂😂",
+   "expect": null
+  },
+  {
+   "id": 61,
+   "text": "@felhasználó köszi szépen, nagyon kedves vagy, csak egy kicsit messze lakom, Bécsben",
+   "expect": null
+  },
+  {
+   "id": 62,
+   "text": "én sem hiszek az igazságszolgáltatásban",
+   "expect": null
+  },
+  {
+   "id": 63,
+   "text": "a csigapörkölt érdekelne. Egy időben rengeteg csigánk volt",
+   "expect": null
+  },
+  {
+   "id": 64,
+   "text": "@felhasználó teljesen igazad van! 😢",
+   "expect": null
+  },
+  {
+   "id": 65,
+   "text": "esetleg egy krumplistészta-főzőverseny??",
+   "expect": null
+  },
+  {
+   "id": 66,
+   "text": "Kagylót levesben ettem, finom volt. Halíze van.",
+   "expect": null
+  },
+  {
+   "id": 67,
+   "text": "Egy kolléga megkérdezte, mit gondolok a nagyúr mentelmi jogának felfüggesztéséről. Azt mondtam, legyen férfi, vállaljon felelősséget a bűneiért. Szerinted igazam van?",
+   "expect": [
+    null,
+    "mark"
+   ]
+  },
+  {
+   "id": 68,
+   "text": "az osztrákok borosüvegben árulnak szőlőlevet, finom",
+   "expect": null
+  },
+  {
+   "id": 69,
+   "text": "Mivel a cirkuszigazgató mindent megenged magának, a szektája is felhatalmazva érzi magát hasonlóra, és senki nem kérdezi meg, ki adta az első pofont. sötét jövő elé nézünk..",
+   "expect": "mark",
+   "trap": "gúnynév + „szekta”; a „pofon” nem buzdítás"
+  },
+  {
+   "id": 70,
+   "text": "Fiatalon sem ittál? Nem piszkáltak emiatt? Én sem iszom alkoholt, de elég sok beszólást kaptam emiatt. (Már senkit nem érdekel)",
+   "expect": null
+  }
+ ]
+}

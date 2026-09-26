@@ -1,0 +1,1056 @@
+{
+ "results": [
+  {
+   "id": 1,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 2,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.06,
+   "attack": 0.12,
+   "attackProbs": {
+    "0": 0.88,
+    "1": 0.12,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 3,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 4,
+   "threat": 0.01,
+   "dehum": 0.02,
+   "group": 0.03,
+   "vulgar": 0.04,
+   "nick": 0.63,
+   "attack": 0.93,
+   "attackProbs": {
+    "0": 0.08,
+    "1": 0.91,
+    "2": 0.01,
+    "3": 0
+   }
+  },
+  {
+   "id": 5,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.06,
+   "vulgar": 0.02,
+   "nick": 0.09,
+   "attack": 0.84,
+   "attackProbs": {
+    "0": 0.17,
+    "1": 0.82,
+    "2": 0.01,
+    "3": 0
+   }
+  },
+  {
+   "id": 6,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 7,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.11,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.98,
+    "1": 0.02,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 8,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.03,
+   "nick": 0.83,
+   "attack": 0.51,
+   "attackProbs": {
+    "0": 0.5,
+    "1": 0.49,
+    "2": 0.01,
+    "3": 0
+   }
+  },
+  {
+   "id": 9,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.01,
+   "nick": 0.1,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.98,
+    "1": 0.02,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 10,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.03,
+   "nick": 0.07,
+   "attack": 0.02,
+   "attackProbs": {
+    "0": 0.98,
+    "1": 0.02,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 11,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 12,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.47,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.97,
+    "1": 0.03,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 13,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.04,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 14,
+   "threat": 0.03,
+   "dehum": 0.03,
+   "group": 0.05,
+   "vulgar": 0.07,
+   "nick": 0.48,
+   "attack": 0.56,
+   "attackProbs": {
+    "0": 0.54,
+    "1": 0.36,
+    "2": 0.1,
+    "3": 0
+   }
+  },
+  {
+   "id": 15,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.04,
+   "nick": 0.05,
+   "attack": 0.12,
+   "attackProbs": {
+    "0": 0.91,
+    "1": 0.07,
+    "2": 0.01,
+    "3": 0.01
+   }
+  },
+  {
+   "id": 16,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 17,
+   "threat": 0.01,
+   "dehum": 0.02,
+   "group": 0.04,
+   "vulgar": 0.03,
+   "nick": 0.57,
+   "attack": 0.37,
+   "attackProbs": {
+    "0": 0.67,
+    "1": 0.3,
+    "2": 0.03,
+    "3": 0
+   }
+  },
+  {
+   "id": 18,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.02,
+   "nick": 0.23,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.98,
+    "1": 0.02,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 19,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.03,
+   "nick": 0.1,
+   "attack": 0.06,
+   "attackProbs": {
+    "0": 0.94,
+    "1": 0.06,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 20,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.06,
+   "attack": 0.01,
+   "attackProbs": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 21,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 22,
+   "threat": 0,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.02,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 23,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.02,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 24,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.03,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 25,
+   "threat": 0.01,
+   "dehum": 0.06,
+   "group": 0.04,
+   "vulgar": 0.02,
+   "nick": 0.45,
+   "attack": 0.08,
+   "attackProbs": {
+    "0": 0.94,
+    "1": 0.03,
+    "2": 0.03,
+    "3": 0
+   }
+  },
+  {
+   "id": 26,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 27,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.02,
+   "nick": 0.04,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 28,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 29,
+   "threat": 0.02,
+   "dehum": 0.02,
+   "group": 0.02,
+   "vulgar": 0.02,
+   "nick": 0.07,
+   "attack": 0.02,
+   "attackProbs": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 30,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 31,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.04,
+   "vulgar": 0.02,
+   "nick": 0.13,
+   "attack": 0.12,
+   "attackProbs": {
+    "0": 0.88,
+    "1": 0.12,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 32,
+   "threat": 0.06,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.02,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 33,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.03,
+   "nick": 0.03,
+   "attack": 0.06,
+   "attackProbs": {
+    "0": 0.94,
+    "1": 0.06,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 34,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 35,
+   "threat": 0.02,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.02,
+   "nick": 0.07,
+   "attack": 0.01,
+   "attackProbs": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 36,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.05,
+   "nick": 0.04,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 37,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0.01,
+   "attackProbs": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 38,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.08,
+   "attack": 0.41,
+   "attackProbs": {
+    "0": 0.59,
+    "1": 0.41,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 39,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.04,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.97,
+    "1": 0.03,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 40,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 41,
+   "threat": 0.01,
+   "dehum": 0.05,
+   "group": 0.01,
+   "vulgar": 0.04,
+   "nick": 0.16,
+   "attack": 0.01,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 42,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 43,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.06,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 44,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.07,
+   "nick": 0.08,
+   "attack": 0.06,
+   "attackProbs": {
+    "0": 0.96,
+    "1": 0.04,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 45,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.03,
+   "nick": 0.71,
+   "attack": 0.45,
+   "attackProbs": {
+    "0": 0.56,
+    "1": 0.44,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 46,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.08,
+   "attack": 0.01,
+   "attackProbs": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 47,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.08,
+   "attack": 0.02,
+   "attackProbs": {
+    "0": 0.98,
+    "1": 0.02,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 48,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 49,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 50,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.02,
+   "nick": 0.06,
+   "attack": 0.01,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 51,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.02,
+   "nick": 0.06,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.97,
+    "1": 0.03,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 52,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.02,
+   "nick": 0.04,
+   "attack": 0.01,
+   "attackProbs": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 53,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.08,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 54,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.19,
+   "nick": 0.04,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 55,
+   "threat": 0.01,
+   "dehum": 0.03,
+   "group": 0.04,
+   "vulgar": 0.05,
+   "nick": 0.32,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.98,
+    "1": 0.01,
+    "2": 0.01,
+    "3": 0
+   }
+  },
+  {
+   "id": 56,
+   "threat": 0.01,
+   "dehum": 0.02,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 57,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.06,
+   "attack": 0.27,
+   "attackProbs": {
+    "0": 0.73,
+    "1": 0.27,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 58,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 59,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.1,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.97,
+    "1": 0.03,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 60,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.02,
+   "vulgar": 0.04,
+   "nick": 0.17,
+   "attack": 0.56,
+   "attackProbs": {
+    "0": 0.44,
+    "1": 0.56,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 61,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.04,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 62,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 63,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 64,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 65,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.01,
+   "nick": 0.03,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 66,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.01,
+   "vulgar": 0.02,
+   "nick": 0.04,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 67,
+   "threat": 0.04,
+   "dehum": 0.02,
+   "group": 0.03,
+   "vulgar": 0.03,
+   "nick": 0.66,
+   "attack": 0.03,
+   "attackProbs": {
+    "0": 0.97,
+    "1": 0.02,
+    "2": 0.01,
+    "3": 0
+   }
+  },
+  {
+   "id": 68,
+   "threat": 0.01,
+   "dehum": 0.01,
+   "group": 0.05,
+   "vulgar": 0.02,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  },
+  {
+   "id": 69,
+   "threat": 0.14,
+   "dehum": 0.02,
+   "group": 0.04,
+   "vulgar": 0.06,
+   "nick": 0.52,
+   "attack": 0.08,
+   "attackProbs": {
+    "0": 0.95,
+    "1": 0.03,
+    "2": 0.01,
+    "3": 0.01
+   }
+  },
+  {
+   "id": 70,
+   "threat": 0.02,
+   "dehum": 0.01,
+   "group": 0.03,
+   "vulgar": 0.02,
+   "nick": 0.05,
+   "attack": 0,
+   "attackProbs": {
+    "0": 1,
+    "1": 0,
+    "2": 0,
+    "3": 0
+   }
+  }
+ ],
+ "tokens": 39812,
+ "ms": 1328
+}

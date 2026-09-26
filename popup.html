@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Epeszűrő</title>
+<style>
+  :root { color-scheme: light dark; --bg: #fff; --fg: #202124; --muted: #69707a; --line: #dfe3e8; --accent: #b3261e; }
+  * { box-sizing: border-box; }
+  body { width: 310px; margin: 0; padding: 16px; background: var(--bg); color: var(--fg); font: 13px/1.4 system-ui, sans-serif; }
+  header, .row, footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  h1 { margin: 0; font-size: 17px; }
+  .switch { display: flex; align-items: center; gap: 7px; font-weight: 650; }
+  section { display: grid; gap: 15px; margin: 16px 0; padding: 15px 0; border-block: 1px solid var(--line); }
+  label { display: grid; gap: 5px; font-weight: 600; }
+  output, #counts { color: var(--muted); font-size: 12px; font-weight: 400; }
+  input[type="range"] { width: 100%; accent-color: var(--accent); }
+  input[type="checkbox"] { accent-color: var(--accent); }
+  button { border: 1px solid var(--line); border-radius: 7px; padding: 6px 9px; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+  a { color: var(--accent); }
+  #counts { margin: 0 0 12px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #202124; --fg: #f1f3f4; --muted: #aeb4bd; --line: #42464d; --accent: #ff8a82; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Epeszűrő</h1>
+  <label class="switch"><input id="enabled" type="checkbox"> <span id="enabledText">Bekapcsolva</span></label>
+</header>
+<section>
+  <label>Megsemmisítés érzékenysége <output for="shred"></output><input id="shred" type="range" min="0" max="2" step="1"></label>
+  <label>Homályosítás érzékenysége <output for="blur"></output><input id="blur" type="range" min="0" max="2" step="1"></label>
+  <label>Gúny jelölése <output for="mock"></output><input id="mock" type="range" min="0" max="2" step="1"></label>
+  <label class="row"><span>Gúny jelölése</span><input id="markEnabled" type="checkbox"></label>
+  <label class="row"><span>Hőtérkép</span><input id="heatmapEnabled" type="checkbox"></label>
+</section>
+<p id="counts"></p>
+<footer><button id="reset" type="button">Alaphelyzet</button><a href="options.html" target="_blank">API-kulcs beállítása</a></footer>
+<script type="module" src="popup.js"></script>
+</body>
+</html>

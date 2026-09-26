@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Epeszűrő",
+  "version": "0.3.1",
+  "description": "Elrejti a gyűlölködő YouTube-hozzászólásokat és élő chatüzeneteket: megsemmisíti, elhomályosítja vagy megjelöli őket. TypeSafe Jev. Nyílt forrású (MIT) – Cziczlavicz Péter.",
+  "author": "Cziczlavicz Péter",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["src/content.js"],
+      "css": ["src/content.css"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://www.youtube.com/live_chat*"],
+      "js": ["src/chat.js"],
+      "css": ["src/chat.css"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.typesafe.ai/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["src/judge.js"],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ],
+  "homepage_url": "https://github.com/naturalmoods/epeszuro"
+}

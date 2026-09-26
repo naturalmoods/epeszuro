@@ -1,0 +1,5 @@
+# tesztek képernyőképei (a test/out/*.json mentett Jev-válaszok kellenek a kulcs nélküli teszthez)
+test/out/*.png
+# csomagolt bővítmény
+*.zip
+.DS_Store
