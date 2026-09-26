@@ -201,7 +201,9 @@
     element.append(ui);
   }
 
+  const friendly = (m) => (/Extension context invalidated/i.test(m || "") ? "a bővítmény frissült, töltsd újra az oldalt (F5)." : m);
   function showError(message) {
+    message = friendly(message);
     let notice = document.getElementById("epe-notice");
     if (!notice) {
       notice = document.createElement("div");

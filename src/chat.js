@@ -104,7 +104,7 @@
         }
         lastError = "";
         reapply();
-      } catch (error) { console.warn("Epeszűrő chat:", error); lastError = error.message; badge(); }
+      } catch (error) { console.warn("Epeszűrő chat:", error); lastError = /Extension context invalidated/i.test(error.message) ? "a bővítmény frissült, töltsd újra az oldalt (F5)" : error.message; badge(); }
     }
   }
   function schedule() {

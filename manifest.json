@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Epeszűrő",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Elrejti a gyűlölködő YouTube-hozzászólásokat és élő chatüzeneteket: megsemmisíti, elhomályosítja vagy megjelöli őket. TypeSafe Jev. Nyílt forrású (MIT) – Cziczlavicz Péter.",
   "author": "Cziczlavicz Péter",
   "icons": {
